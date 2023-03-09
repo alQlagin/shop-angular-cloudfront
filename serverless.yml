@@ -32,7 +32,7 @@ plugins:
 
 custom:
   client:
-    bucketName: shop-angular-cloudfront-task22-module-3033587
+    bucketName: shop-angular-cloudfront-module-3033587
     distributionFolder: dist/app
   s3LocalPath: ${self:custom.client.distributionFolder}/
   s3BucketName: ${self:custom.client.bucketName}
